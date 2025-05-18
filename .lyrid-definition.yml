@@ -1,0 +1,11 @@
+name: nuxtjs
+description: App Description
+ignoreFiles: .git .nuxt .output node_modules yarn.lock
+modules:
+  - name: template
+    language: nodejs22.x
+    web: nuxt3
+    description: Module description
+    functions:
+      - name: entry
+        description: the entry point for the function
